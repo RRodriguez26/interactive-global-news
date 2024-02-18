@@ -5,9 +5,9 @@ export default function App() {
   return (
     <Viewer full>
       <Entity
-        name="Tokyo"
-        position={Cartesian3.fromDegrees(139.767052, 35.681167, 100)}
-        point={{ pixelSize: 10, color: Color.WHITE }}
+        name="Philadelphia"
+        position={Cartesian3.fromDegrees(-75.165222, 39.952583)}
+        point={{ pixelSize: 10, color: Color.BLACK }}
         description="hoge"
       />
     </Viewer>

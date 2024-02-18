@@ -1,5 +1,7 @@
-export const plugins = [
-    {
-        plugin: require("craco-cesium")()
-    }
-];
+module.exports = {
+    plugins: [
+        {
+            plugin: require("craco-cesium")()
+        }
+    ]
+};
